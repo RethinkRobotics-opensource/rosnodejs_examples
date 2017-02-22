@@ -1,0 +1,21 @@
+{
+  "name": "rosnodejs_examples",
+  "version": "0.0.0",
+  "description": "Example programs for ROS Node Javascript client library",
+  "keywords": [
+    "ros"
+  ],
+  "scripts": {
+    "talker": "node scripts/talker.js",
+    "listener": "node scripts/listener.js"
+  },
+  "author": "Ian McMahon",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/RethinkRobotics-opensource/rosnodejs_examples"
+  },
+  "dependencies": {
+    "rosnodejs": "https://github.com/RethinkRobotics-opensource/rosnodejs.git#kinetic-devel"
+  }
+}
