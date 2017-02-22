@@ -13,7 +13,7 @@ $ catkin build
 ```
 
 ## Running Talker / Listener
-Then, open three terminal windows (for illustration purposes).  
+To run the programs, open three terminal windows (for illustration purposes).  
 ### Window 1: typical ROS Master
 ```
 $ source ~/rosnodejs_ws/devel/setup.bash
@@ -34,7 +34,7 @@ You should see output like the following:
 ### Window 3: listener.js script
 ```
 $ source ~/rosnodejs_ws/devel/setup.bash
-$ rosrun rosnodejs_examples talker.js
+$ rosrun rosnodejs_examples listener.js
 ```
 You should see echoed output like the following:
 ```
