@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>rosnodejs_examples</name>
+  <version>0.0.0</version>
+  <description>The rosnodejs_examples package</description>
+
+  <maintainer email="imcmahon@rethinkrobotics.com">Ian McMahon</maintainer>
+  <license>Apache 2.0</license>
+
+
+  <!-- Url tags are optional, but multiple are allowed, one per tag -->
+  <!-- Optional attribute type can be: website, bugtracker, or repository -->
+  <!-- Example: -->
+  <!-- <url type="website">http://wiki.ros.org/rosnodejs_examples</url> -->
+
+  <author email="imcmahon@rethinkrobotics.com">Ian McMahon</author>
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>
