@@ -15,5 +15,6 @@
 
   <author email="imcmahon@rethinkrobotics.com">Ian McMahon</author>
   <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>std_msgs</run_depend>
 
 </package>
