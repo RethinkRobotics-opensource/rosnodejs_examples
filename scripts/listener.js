@@ -35,10 +35,6 @@ function listener() {
       let sub = rosNode.subscribe('/chatter', std_msgs.String,
         (data) => { // define callback execution
           rosnodejs.log.info('I heard: [' + data.data + ']');
-        },
-        {
-          queueSize: 100,
-          throttleMs: 10
         }
       );
     });
@@ -48,6 +44,3 @@ if (require.main === module) {
   // Invoke Main Listener Function
   listener();
 }
-
-
-

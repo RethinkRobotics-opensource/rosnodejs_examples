@@ -32,13 +32,7 @@ function talker() {
   rosnodejs.initNode('/talker_node')
     .then((rosNode) => {
       // Create ROS publisher on the 'chatter' topic with String message
-      let pub = rosNode.advertise( '/chatter', std_msgs.String,
-        {
-          queueSize: 1,
-          latching: true,
-          throttleMs: 9
-        }
-      );
+      let pub = rosNode.advertise('/chatter', std_msgs.String);
       let count = 0;
       const msg = new std_msgs.String();
       // Define a function to execute every 100ms
@@ -58,6 +52,3 @@ if (require.main === module) {
   // Invoke Main Talker Function
   talker();
 }
-
-
-
