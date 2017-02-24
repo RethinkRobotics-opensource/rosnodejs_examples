@@ -13,6 +13,7 @@ $ git clone https://github.com/RethinkRobotics-opensource/rosnodejs_examples.git
 $ cd rosnodejs_examples
 $ npm install
 $ cd ~/rosnodsjs_ws
+$ source /opt/ros/kinetic/setup.bash
 $ catkin build
 ```
 
