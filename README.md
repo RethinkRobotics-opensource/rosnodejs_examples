@@ -2,10 +2,12 @@
 
 ## Install and Build
 
-`nodejs` and the `npm` package manager are required, with 6.x or 7.x recommended:  
-https://nodejs.org/en/download/package-manager/  
+Prerequisites:
+- [Install ROS Kinetic or Lunar](http://wiki.ros.org/kinetic/Installation/Ubuntu)  
+- [Install `nodejs` and the `npm` package manager, with `nodejs` version 6.x or 7.x recommended]
+(https://nodejs.org/en/download/package-manager/)  
   
-To get started the "catkin" way:  
+To get started the "catkin" way:
 ```
 $ mkdir -p ~/rosnodsjs_ws/src
 $ cd ~/rosnodsjs_ws/src
