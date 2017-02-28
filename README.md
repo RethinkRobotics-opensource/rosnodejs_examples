@@ -22,15 +22,19 @@ $ catkin build
 ## Running Talker / Listener
 To run the programs, open three terminal windows (for illustration purposes).  
 ### Window 1: typical ROS Master
-```
-$ source ~/rosnodejs_ws/devel/setup.bash
-$ roscore
-```
+  
+Source environment varables (only needed once per terminal window)  
+`$ source ~/rosnodejs_ws/devel/setup.bash`  
+Start ROS Master  
+`$ roscore`  
+  
 ### Window 2: talker.js script 
-```
-$ source ~/rosnodejs_ws/devel/setup.bash
-$ rosrun rosnodejs_examples talker.js
-```
+  
+Source environment varables (only needed once per terminal window)  
+`$ source ~/rosnodejs_ws/devel/setup.bash`  
+Start the Talker Script  
+`$ rosrun rosnodejs_examples talker.js`  
+  
 You should see output like the following:
 ```
 [INFO] [1487773766.635] (ros): I said: [hello world 10]
@@ -39,10 +43,12 @@ You should see output like the following:
 ```
 
 ### Window 3: listener.js script
-```
-$ source ~/rosnodejs_ws/devel/setup.bash
-$ rosrun rosnodejs_examples listener.js
-```
+  
+Source environment varables (only needed once per terminal window)  
+`$ source ~/rosnodejs_ws/devel/setup.bash`  
+Start the Listener Script  
+`$ rosrun rosnodejs_examples listener.js`  
+  
 You should see echoed output like the following:
 ```
 [INFO] [1487773766.644] (ros): I heard: [hello world 10]
