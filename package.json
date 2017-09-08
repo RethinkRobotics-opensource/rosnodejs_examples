@@ -16,6 +16,6 @@
     "url": "git://github.com/RethinkRobotics-opensource/rosnodejs_examples"
   },
   "dependencies": {
-    "rosnodejs": "https://github.com/RethinkRobotics-opensource/rosnodejs.git#kinetic-devel"
+    "rosnodejs": "2.1.1"
   }
 }
