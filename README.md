@@ -9,12 +9,12 @@ Prerequisites:
   
 To get started the "catkin" way:
 ```
-$ mkdir -p ~/rosnodsjs_ws/src
-$ cd ~/rosnodsjs_ws/src
+$ mkdir -p ~/rosnodejs_ws/src
+$ cd ~/rosnodejs_ws/src
 $ git clone https://github.com/RethinkRobotics-opensource/rosnodejs_examples.git
 $ cd rosnodejs_examples
 $ npm install
-$ cd ~/rosnodsjs_ws
+$ cd ~/rosnodejs_ws
 $ source /opt/ros/kinetic/setup.bash
 $ catkin build
 ```
